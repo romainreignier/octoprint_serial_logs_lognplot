@@ -13,7 +13,7 @@ use std::io::Read;
 fn main() {
     let matches = App::new("octoprint_serial_logs_lognplot")
                           .version("1.0")
-                          .about("Read an Octoprint serial log file and sends temperature data to a running lognplot instance to plot them.")
+                          .about("Read an Octoprint serial log file and send temperature data to a running lognplot instance to plot them.")
                           .arg(Arg::with_name("serial_logs")
                                .help("The serial_logs file to use")
                                .required(true)
