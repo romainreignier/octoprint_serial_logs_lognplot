@@ -1,0 +1,13 @@
+[package]
+name = "octoprint_serial_logs_lognplot"
+version = "0.1.0"
+authors = ["Romain Reignier <rom.reignier@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "~2.33"
+regex = "1"
+chrono = "0.4.10"
+lognplot = { git = "https://github.com/windelbouwman/lognplot", rev = "edfd75f512162fe7a8738365fd1db2d9c8ec6197"}
